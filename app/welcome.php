@@ -9,7 +9,7 @@
 <div class="container">
 	<img class="lang-select" src="/lang/de.svg"/>
 	<h1>Willkommen in der <wbr>Gonimowelt!</h1><br>
-	<img class="welcome-img" src="/img/app/world.png"/>
+	<img class="welcome-img" src="/pix/world.png"/>
 	<br>
 	<h3>ERSTELLE EINE NEUE FAMILIE</h3>
 	<div class="welcome-form">

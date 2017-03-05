@@ -9,7 +9,7 @@
 <div class="container">
 	<img class="lang-select" src="/lang/de.svg"/>
 	<h1>Willkommen in der <wbr>Gonimowelt!</h1><br>
-	<img class="welcome-img" src="/img/app/world.svg"/>
+	<img class="welcome-img" src="/pix/world.svg"/>
 	<br>
 	<h3>FAMILIE</h3>
 	<div class="welcome-form">
@@ -24,11 +24,11 @@
 	<br>
 	<div class="btn-box">
 		<div class="btn-parent">
-		<img src="/img/app/button-parent.svg">
+		<img src="/pix/button-parent.svg">
 		<span>ELTERN</span>
 		</div>
 		<div class="btn-baby">
-		<img src="/img/app/button-baby.svg">
+		<img src="/pix/button-baby.svg">
 		<span>BABY</span>
 		</div>
 	</div>
