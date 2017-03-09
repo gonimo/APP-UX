@@ -188,6 +188,20 @@ h3{
 	margin-left:-20%;
 	background:white;
 }
+
+.input-btn.input-btn-left{
+	  float:left;
+	  border-left:none;
+	  border-right:solid 2px black;
+	  width:10%;
+	  margin-left:-10%;
+}
+
+.input-btn.input-btn-right{
+	  width:10%;
+	  margin-left:-20%;
+}
+
 .input-btn-grp{
 	  float:right;
 	  font-size:xx-large;
@@ -695,4 +709,23 @@ span.baby-form{
     flex-direction:column;
     justify-content: center;
     height: 100%;
+}
+
+.familyNameEdit {
+    display: none;
+}
+
+.familyNameEdit.isFamilyNameEdit {
+    display: block;
+}
+
+.fullScreenOverlay {
+    height:100vh;
+    width:100vw;
+    z-index: 10;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color: white;
+    overflow: auto;
 }
