@@ -1,0 +1,43 @@
+<!doctype html>
+<body>
+
+<div class="notification overlay"> <!-- notification need this div and everything inside it -->
+	<div class="container">
+		<div class="notification box">
+			<div class="notification header">
+			Invitation <!-- put notification header here -->
+			</div>
+			<div class="notification text">
+			The device {{device}} invited you to join the family {{family}} <!-- put notification text here -->
+			</div>
+			<div class="notification btn-box">
+				<div class="notification left-btn" role="button">
+				Accept <!-- first button is always the positive (pink) one -->
+				</div>
+				<div class="notification right-btn" role="button">
+				Decline <!-- second (right) button is always the negative (grey) one -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div class="notification overlay"> <!-- this is the error-option with only a single button -->
+	<div class="container">
+		<div class="notification box">
+			<div class="notification header">
+			Error <!-- put notification header here -->
+			</div>
+			<div class="notification text">
+			Gonimo encountered an error with something <!-- put notification text here -->
+			</div>
+			<div class="notification btn-box" role="button">
+				<div class="notification single-btn">
+				OK <!-- single button for Errors -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
